@@ -1,0 +1,35 @@
+body {
+	margin: 1;
+	font-family: Arial;
+	background-color: #929cf0;
+	
+}
+.hero{
+	
+	height:100vh;
+	background-color: #f0afaa;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.hero h1 {
+	
+	font-size: 50px;
+}
+
+.hero p {
+	
+	font-size: 20px;
+	
+}
+.hero button {
+	padding: 10px 20px;
+	border: none;
+	background-color: blue;
+	color: white;
+	font-size: 18px;
+		
+	
+}

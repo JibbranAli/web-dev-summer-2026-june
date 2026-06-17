@@ -1,0 +1,55 @@
+body{
+	
+	margin: 0;
+	
+}
+.hero{
+	height: 100vh;
+	background-image: url("https://res.cloudinary.com/dd2diqcqv/image/upload/v1781088130/travel_ytws4e.avif");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	color: black;
+	background-color: black;
+	align-content: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+}
+.hero h1{
+	
+	font-size: 90px;
+	background-color: black;
+	color: white;
+	position: relative;
+	top: 20px;
+	left: 600px;
+	width: fit-content;
+}
+.hero p {
+	font-size: 40px;
+	background-color: black;
+	color: white;
+	position: relative;
+	top: 0px;
+	left: 850px;
+	width: fit-content;
+	
+}
+
+
+button {
+	padding: 12px 25px;
+	border: none;
+	background-color: black;
+	font-size: 50px;
+	position: relative;
+	top: 40px;
+	left: 1100px;
+	width: 500px;
+	color: white;
+	width: fit-content;
+	
+	
+}
