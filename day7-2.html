@@ -4,8 +4,8 @@
 
 <title> JAVA SCRIPT </title>
 <head>
-<h1 id="heading"> I AM H1  </h1>
-<button onclick="showmessage()"> CLICK ME  </button>
+<h1 id="heading"> CHECK YOUR RESULT  </h1>
+<button onclick="showmessage()"> CLICK TO ENETR MARKS  </button>
 
 </head>
 
@@ -16,11 +16,18 @@
 
 function showmessage()
 {
-	document.getElementById("heading").innerHTML = "HELLO";
+var marks = parseInt (prompt ("Enter Marks  : "));
 
+if (marks >= 40 )
+{
+	document.write("PASS");
+	
 }
-
-
+else {
+	
+	document.write("FAIL");
+}
+}
 </script>
 
 
